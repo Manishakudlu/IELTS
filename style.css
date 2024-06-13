@@ -1,0 +1,319 @@
+
+
+/* Reset default styles for consistent rendering across browsers */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font and background color for the website */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+  background-color: #7c0a02;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #c21807;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.container img {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ /* Assuming you have already styled the header, main, and footer sections in your CSS */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling for the Listening Test section */
+section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+audio {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Styling for the Reading Test section */
+.accordion-btn {
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.accordion-panel {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.accordion-panel p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Styling for the Writing Test section */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#submitBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #0056b3;
+}
+
+#submitBtn:active {
+    background-color: #004080;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Assuming you have already styled the header, main, and footer sections in your CSS */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #666;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+.connect-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.connect-content {
+    text-align: center;
+}
+
+.connect-content h2 {
+    color: #333;
+}
+
+.connect-content p {
+    color: #666;
+}
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-media-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
